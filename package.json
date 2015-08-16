@@ -1,0 +1,46 @@
+{
+  "name": "typescript-gamedev-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./static/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prettymuchbryce",
+  "dependencies": {
+    "body-parser": "1.4.3",
+    "bunyan": "0.23.1",
+    "express": "4.4.3",
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.16.0",
+    "ejs": "1.0.0",
+    "file-loader": "^0.8.4",
+    "jquery": "^2.1.4",
+    "json": "^9.0.3",
+    "json-loader": "^0.5.2",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "lodash": "^3.10.1",
+    "path": "^0.11.14",
+    "pixi.js": "3.0.7",
+    "script-loader": "^0.6.1",
+    "style-loader": "^0.12.3",
+    "ts-loader": "^0.5.0",
+    "typescript": "^1.5.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.11.0"
+  },
+  "window": {
+    "title": "My NW.js game",
+    "toolbar": false,
+    "fullscreen": true,
+    "frame": false,
+    "width": 800,
+    "height": 600,
+    "position": "mouse",
+    "min_width": 800,
+    "min_height": 600
+  }
+}

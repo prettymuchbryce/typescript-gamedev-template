@@ -1,0 +1,6 @@
+node_modules
+client/vendor
+static/js
+app.log
+out.log
+.idea

@@ -16,7 +16,7 @@ Don't worry. Your secret is safe with me.
 ### usage
 * Check out this project and the submodule
 ```
-git clone --recursive
+git clone --recursive git@github.com:prettymuchbryce/typescript-gamedev-template.git
 ```
 * Install global stuff `npm install tsc webpack -g`
 * Install dependencies `npm install`

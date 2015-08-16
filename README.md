@@ -23,4 +23,3 @@ git clone --recursive git@github.com:prettymuchbryce/typescript-gamedev-template
 * Compile frontend `webpack`
 * Start test server `node server/app.js`
 * Head to `http://127.0.0.1:3000`
-* (optional) install TSC 

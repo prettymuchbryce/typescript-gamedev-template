@@ -1,6 +1,6 @@
 PIXI.SCALE_MODES.DEFAULT = PIXI.SCALE_MODES.NEAREST;
 
-let renderer: PIXI.WebGLRenderer|PIXI.CanvasRenderer = PIXI.autoDetectRenderer(800, 600, {
+let renderer: PIXI.WebGLRenderer|PIXI.CanvasRenderer = PIXI.autoDetectRenderer(window.innerWidth, window.innerHeight, {
     backgroundColor: 0x9394FE,
 });
 

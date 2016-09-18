@@ -8,9 +8,10 @@ Ready to be used with [Electron](https://github.com/electron/electron) (native a
 - Typescript
 - PIXI.js
 - webpack
+- tslint
 
 ### usage
 * Check out this project
-* Install global depenedencies `npm install typings webpack -g`
+* Install global depenedencies `npm install typings electron webpack -g`
 * Install project dependencies `npm install`
 * Run `npm build && npm start`

@@ -16,9 +16,6 @@
   "devDependencies": {
     "file-loader": "^0.8.4",
     "json": "^9.0.3",
-    "json-loader": "^0.5.2",
-    "less": "^2.5.1",
-    "less-loader": "^2.2.0",
     "ts-loader": "^0.8.2",
     "tslint": "^3.15.1",
     "typescript": "^1.8.10",

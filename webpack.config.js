@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: './client/src/App.ts',
+    entry: ['./node_modules/pixi.js/bin/pixi.js', './src/main.ts'],
     output: {
         path: './static',
         filename: 'js/all.js'
@@ -11,11 +11,6 @@ module.exports = {
     },
     module: {
         loaders: [
-            { 
-                test: /\.js$/, 
-                loader: 'script-loader', 
-                exclude: path.join(__dirname, 'node_modules') 
-            },
             { test: /\.ts$/, loader: 'ts-loader' },
             { test: /\.less$/, loader: 'style-loader!css-loader!less-loader' },
             { test: /\.css$/, loader: 'style-loader!css-loader' },
@@ -29,6 +24,6 @@ module.exports = {
     },
     resolve: {
         modulesDirectories: ['node_modules'],
-        extensions: ['', '.js', '.json', '.jsx', '.ts']
+        extensions: ['', '.js', '.json', '.ts']
     }
 };
